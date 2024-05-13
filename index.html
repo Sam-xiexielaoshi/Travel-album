@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|Voyage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo" style="font-family: Georgia, 'Times New Roman', Times, serif;">Parcourir</h1>
+        <ul class="nav-link">
+            <li><a href="#"  style="font-family: Georgia, 'Times New Roman', Times, serif;">Home</a></li>
+            <li><a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif;">LaDemeure</a></li>
+            <li><a href="#"style="font-family: Georgia, 'Times New Roman', Times, serif;">Transport</a></li>
+            <li><a href="#"style="font-family: Georgia, 'Times New Roman', Times, serif;">Activities</a></li>
+            <li><a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif;">About</a></li>
+            <li><a href="#" style="font-family: Georgia, 'Times New Roman', Times, serif;">Contact</a></li>
+        </ul>
+        <span class="menu-btn"><ion-icon name="grid-outline"></ion-icon></span>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Start Your Travel Story Today</h2>
+            <div class="line"></div>
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">FOLLOW YOUR HEART</h1>
+            <a href="#" class="ctn" style="font-family: Georgia, 'Times New Roman', Times, serif;">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="ek" src="menu-btn.jpg" alt="">
+                <h4 style="font-family: Georgia, 'Times New Roman', Times, serif;">Everest Camp Trek</h4>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">The Great Himalaya Trail is a route across the Himalayas from east to west. The original concept was to establish a single long distance trekking trail from the east end to the west end of Nepal that includes a total of roughly 1,700 kilometres (1,100 mi) of path.</p>
+                <a href="#" class="ctn" style="font-family: Georgia, 'Times New Roman', Times, serif;">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="walking.jpg" alt="" class="ek">
+                <h4 style="font-family: Georgia, 'Times New Roman', Times, serif;">Mountain-Foot Trek</h4>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Walking is one of the main gaits of terrestrial locomotion among legged animals. Walking is typically slower than running and other gaits. Walking is defined by an "inverted pendulum" gait in which the body vaults over the stiff limb or limbs with each step.</p>
+                <a href="#" class="ctn" style="font-family: Georgia, 'Times New Roman', Times, serif;">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Step Into the True Nature</h1>
+            <div class="line"></div>
+            <p style="font-family: Georgia, 'Times New Roman', Times, serif;">The true nature of things often lies beneath the surface, beyond what is readily visible or understood. It is the essence that defines and shapes the reality of existence. True nature encompasses the inherent qualities, characteristics, and tendencies.</p>
+            <a href="#" class="ctn" style="font-family: Georgia, 'Times New Roman', Times, serif;">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col">
+               <h1 style="color:#484872;text-align:center;font-size: 50px;margin-top: 10px;margin-right: 130px;" style="font-family: Georgia, 'Times New Roman', Times, serif;">UPCOMING TOURS & DESTINATIONS</h1>
+               <div class="line" style="margin-right: 140px;"></div>
+               <p style="color:#7c7c7c;text-align: center;font-size: 17px;margin-top: 20px;margin-right: 95px;" style="font-family: Georgia, 'Times New Roman', Times, serif;">Create a fully customized day-by-day itinerary and discover the hidden gems of Saudi.With 4 international airports, served by a wealth of global carriers, getting to and around the Kingdom couldn’t be easier. A first-rate transportation system connects Saudi Arabia’s provinces and cities, serving millions of people each day.It's is warm and fun here.</p> 
+               <a href="#" class="ctn" style="margin-right: 95px;" style="font-family: Georgia, 'Times New Roman', Times, serif;">Learn More</a>
+            </div>
+            <div class="col">
+               <div class="image-gallery">
+                <img src="img1.webp" alt="">
+                <img src="img2.webp" alt="">
+                <img src="img3.webp" alt="">
+                <img src="img4.webp" alt="">
+               </div>
+            </div>
+        </div>
+    </section >
+
+    <section class="footer">
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">123 Fifth Avenue, NY 101101, New York, USA | Phone: 1800-3454-1800 | Email: contact@easykonect.com</p>
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif;">Copyright © 2024 Sunny Tourism Authority. All rights reserved</p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
